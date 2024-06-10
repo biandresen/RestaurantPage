@@ -1,3 +1,54 @@
+@font-face {
+  font-family: "CafeFont";
+  src: url("./assets/fonts/Cafe.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  background-color: lightblue;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2.5vw;
+}
+
+.btn {
+  margin-left: 2vw;
+  height: 5vh;
+  width: 5vw;
+  font-size: 1vw;
+  border-radius: 20px;
+  background-color: lightgreen;
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: grid;
+}
+
+.centerImg {
+  height: 88vh;
+  width: 100vw;
+  justify-self: center;
+}
+
+.header {
+  font-family: "CafeFont", sans-serif;
+  font-size: 4rem;
+  color: lightgreen;
+  letter-spacing: 8px;
+  position: absolute;
+  justify-self: center;
+  top: -3vh;
 }

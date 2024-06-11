@@ -18,7 +18,7 @@ export function homepageTab() {
 
   const paragraphText = document.createElement("p");
   paragraphText.textContent =
-    "Enjoy the fantastic atmosphere in our cozy restaurant while dining exquisite food from the best ingredients!";
+    "Enjoy the fantastic atmosphere in our cozy restaurant while dining exquisite food with the best ingredients!";
   paragraphText.classList.add("home-page-text");
   content.appendChild(paragraphText);
 }

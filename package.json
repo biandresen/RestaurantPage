@@ -4,6 +4,7 @@
   "description": "Project: Restaurant Page, from The Odin Project Link to the project description: https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page",
   "main": "index.js",
   "scripts": {
+    "updateProject": "git subtree push --prefix dist origin gh-pages",
     "build": "webpack",
     "dev": "webpack serve"
   },

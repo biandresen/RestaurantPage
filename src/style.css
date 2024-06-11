@@ -16,9 +16,9 @@ nav {
   width: 100vw;
   height: 12vh;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  gap: 2.5vw;
+  gap: 5vw;
 }
 
 .btn {
@@ -28,6 +28,12 @@ nav {
   font-size: 1vw;
   border-radius: 20px;
   background-color: lightgreen;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease 0.2s;
 }
 
 #content {
@@ -57,15 +63,15 @@ nav {
   text-shadow: 5px 5px rgb(63, 103, 63);
 }
 
-.home-page-text {
-  font-family: "CafeFont", sans-serif;
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2.5rem;
   color: lightgreen;
   letter-spacing: 8px;
   position: absolute;
   padding: 2vw;
   width: 60vw;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
   border-radius: 20px;
   justify-self: center;
   top: 25vh;
@@ -84,6 +90,7 @@ nav {
   justify-self: center;
 }
 
-.focused-btn{
-  height: 10vh;
+.focused-btn {
+  height: 11vh;
+  border-radius: 0px;
 }
